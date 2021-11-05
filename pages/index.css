@@ -1,11 +1,24 @@
+/* Подключение шрифтов и normalize */
 @import url(../vendor/normalize.css);
 @import url(../vendor/fonts.css);
 
+/* Подключаем стиль общего блока всего сайта */
 @import url(../blocks/page/page.css);
+
+/* Подключаем стили header */
 @import url(../blocks/header/header.css);
 @import url(../blocks/lang/lang.css);
 @import url(../blocks/lang/__list/lang__list.css);
 @import url(../blocks/lang/__link/lang__link.css);
 @import url(../blocks/lang/__link/_selected/lang__link_selected.css);
 
+/* Подключаем стили секции lead */
 @import url(../blocks/lead/lead.css);
+@import url(../blocks/lead/__title/lead__title.css);
+@import url(../blocks/lead/__subtitle/lead__subtitle.css);
+@import url(../blocks/lead/__image/lead__image.css);
+@import url(../blocks/lead/__figure/lead__figure.css);
+@import url(../blocks/lead/__caption/lead__caption.css);
+
+/* Подключаем стили секции intro */
+@import url(../blocks/intro/intro.css);
