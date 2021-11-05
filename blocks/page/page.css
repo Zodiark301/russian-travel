@@ -2,7 +2,8 @@
   font-family: "Inter", Arial, sans-serif;
   background: #2a2c2f;
   min-width: 320px;
-  display: grid;
-  justify-items: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
   color: white;
 }
