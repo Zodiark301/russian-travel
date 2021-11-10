@@ -5,4 +5,34 @@
   width: 100%;
   margin: 0;
   padding: 92px 0 0 0;
+  box-sizing: border-box;
+  outline: 1px solid royalblue;
+}
+
+@media screen and (max-width: 1279px) {
+  .intro {
+    width: 928px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .intro {
+    margin: 0;
+    max-width: 720px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .intro {
+    width: 400px;
+    padding-top: 88px;
+  }
+}
+
+@media screen and (max-width: 425px) {
+  .intro {
+    margin: 0;
+    width: 89.8%;
+    padding-top: 64px;
+  }
 }

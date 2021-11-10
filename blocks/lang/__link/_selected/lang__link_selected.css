@@ -1,3 +1,9 @@
 .lang__link_selected {
   border-bottom: 2px solid currentColor;
 }
+
+@media screen and (max-width: 767px) {
+  .lang__link_selected {
+    border-bottom: 1px solid currentColor;
+  }
+}

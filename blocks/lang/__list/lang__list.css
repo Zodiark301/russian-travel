@@ -4,3 +4,10 @@
   margin: 0;
   padding: 0 18px 0 0;
 }
+
+@media screen and (max-width: 767px) {
+  .lang__list {
+    font-size: 18px;
+    line-height: 1.3;
+  }
+}
