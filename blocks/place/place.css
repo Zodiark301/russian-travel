@@ -12,3 +12,29 @@
 article.place:first-child {
   padding-top: 0;
 }
+
+@media screen and (max-width: 1279px) {
+  .place {
+    grid-column-gap: 32px;
+  }
+}
+
+@media screen and (max-width: 1023px) {
+  .place {
+    grid-column-gap: 28px;
+    padding-top: 73px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .place {
+    grid-template-areas:
+      "place-title"
+      "place-img"
+      "place-descriptions";
+    grid-column-gap: 0;
+    grid-row-gap: 32px;
+    padding-top: 64px;
+    justify-items: center;
+  }
+}
