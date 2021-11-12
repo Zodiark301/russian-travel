@@ -30,11 +30,11 @@ article.place:first-child {
   .place {
     grid-template-areas:
       "place-title"
+      "place-website"
       "place-img"
       "place-descriptions";
     grid-column-gap: 0;
     grid-row-gap: 32px;
     padding-top: 64px;
-    justify-items: center;
   }
 }

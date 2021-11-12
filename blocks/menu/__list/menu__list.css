@@ -6,3 +6,13 @@
 .menu__list:last-child {
   padding-right: 0;
 }
+
+@media screen and (max-width: 767px) {
+  .menu__list {
+    padding: 32px 0 0 0;
+  }
+
+  .menu__list:first-child {
+    padding-top: 0;
+  }
+}

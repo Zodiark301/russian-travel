@@ -1,3 +1,9 @@
 .place__descriptions {
   grid-area: place-descriptions;
 }
+
+@media screen and (max-width: 767px) {
+  .place__descriptions {
+    padding: 0 16px 0 16px;
+  }
+}
