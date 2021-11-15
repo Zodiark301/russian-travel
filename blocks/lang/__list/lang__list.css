@@ -5,6 +5,10 @@
   padding: 0 18px 0 0;
 }
 
+.lang__list:last-child {
+  padding: 0;
+}
+
 @media screen and (max-width: 767px) {
   .lang__list {
     font-size: 18px;

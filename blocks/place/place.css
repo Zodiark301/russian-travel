@@ -35,6 +35,6 @@ article.place:first-child {
       "place-descriptions";
     grid-column-gap: 0;
     grid-row-gap: 32px;
-    padding-top: 64px;
+    padding-top: 50px;
   }
 }
