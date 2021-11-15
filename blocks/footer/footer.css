@@ -25,5 +25,6 @@
     padding: 64px 16px 16px 24px;
     flex-direction: column;
     max-width: 288px;
+    box-sizing: border-box;
   }
 }
